@@ -1,4 +1,7 @@
 ## Memory model
+
+Refs:
+https://javapapers.com/java/java-garbage-collection-introduction/
 https://stackify.com/what-is-java-garbage-collection/
 
 ### Memory areas
