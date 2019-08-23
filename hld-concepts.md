@@ -1,4 +1,4 @@
-#HLD concepts
+# HLD concepts
 
 ##ACID - RDBMS
     Atomicity, 
@@ -6,12 +6,12 @@
 		ISOLATION, 
 		DURABLE
 
-##BASE - NoSQL
+## BASE - NoSQL
     Basically Available, 
 		Soft state, 
 		Eventual consistency 
 		
-##SOLID - design priceples
+## SOLID - design priceples
     Single resposibility priciple, 
 		Open/close priciple, 
 		Liskov substitution principle, 
