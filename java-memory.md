@@ -1,4 +1,4 @@
-## Memory model
+## Java memory model
 
 Refs:
 https://javapapers.com/java/java-garbage-collection-introduction/
