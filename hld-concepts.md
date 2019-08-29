@@ -28,3 +28,6 @@
     A catalog like description which classifies objects. e.g: product catalog    
    ###### Green (Party, Place or Thing)
     Something that is uniquely identifiable. e.g: Person, Store, Product
+
+### BigTable concepts
+https://www.cs.rutgers.edu/~pxk/417/notes/content/bigtable.html
