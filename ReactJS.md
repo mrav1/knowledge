@@ -83,3 +83,8 @@ The merging is shallow, so `this.setState({comments})` leaves `this.state.posts`
 Handling events with React elements is very similar to handling events on DOM elements. There are some syntactic differences:
 - React events are named using camelCase, rather than lowercase.
 - With JSX you pass a function as the event handler, rather than a string.
+```
+<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
+<button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
+```
+## Stateful LoginControl example
