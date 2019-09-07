@@ -63,3 +63,8 @@ class Clock extends React.Component {
   
 }
 ```
+## Lifecycle Method
+```
+componentDidMount(){}
+componentWillUnmount(){}
+```
