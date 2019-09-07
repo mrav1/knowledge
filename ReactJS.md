@@ -78,3 +78,8 @@ this.setState((state, props) => ({ // it has previous state and current props as
 ```
 3. State Updates are Merged
 The merging is shallow, so `this.setState({comments})` leaves `this.state.posts` intact, but completely replaces `this.state.comments`.
+
+## Handling Events
+Handling events with React elements is very similar to handling events on DOM elements. There are some syntactic differences:
+- React events are named using camelCase, rather than lowercase.
+- With JSX you pass a function as the event handler, rather than a string.
