@@ -39,3 +39,27 @@ class Welcome extends React.Component {
 ```
 #### Always start component names with a capital letter.
 React treats components starting with lowercase letters as DOM tags. For example, `<div />` represents an HTML div tag, but `<Welcome />` represents a component and requires Welcome to be in scope
+
+#### All React components must act like pure functions with respect to their props.
+Such functions are called “pure” because they do not attempt to change their inputs, and always return the same result for the same inputs.
+
+## Adding Local State to a Class
+```
+class Clock extends React.Component {
+
+   constructor(props){
+      super(props)
+      this.state = {date: new Date()};
+   }
+   
+   render() {
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+        <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+      </div>
+    );
+  }
+  
+}
+```
