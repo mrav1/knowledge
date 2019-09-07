@@ -71,8 +71,10 @@ componentWillUnmount(){}
 ## Using State Correctly
 1. Do Not Modify State Directly, like: `Do Not Modify State Directly`, Instead, use `setState():` ie., `this.setState({comment: 'Hello'});`
 2. State Updates May Be Asynchronous
-```this.setState((state, props) => ({ // it has previous state and current props as arguments
+```
+this.setState((state, props) => ({ // it has previous state and current props as arguments
   counter: state.counter + props.increment
-}));```
+}));
+```
 3. State Updates are Merged
 The merging is shallow, so `this.setState({comments})` leaves `this.state.posts` intact, but completely replaces `this.state.comments`.
