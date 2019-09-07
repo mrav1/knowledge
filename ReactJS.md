@@ -68,3 +68,5 @@ class Clock extends React.Component {
 componentDidMount(){}
 componentWillUnmount(){}
 ```
+## Using State Correctly
+1. Do Not Modify State Directly, like: `Do Not Modify State Directly`, Instead, use `setState():` ie., ``this.setState({comment: 'Hello'});`
