@@ -1,2 +1,0 @@
-# Web components 
-- `CustomElementsRegistry` is the controller of the customer elements, this object allows you to register a custom element on page and return information on what components registered 
